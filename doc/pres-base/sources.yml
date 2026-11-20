@@ -1,71 +1,83 @@
 axum:
   type: web
   title: 'axum'
-  url: 'https://github.com/tokio-rs/axum'
-  urldate: 2026-11-20
+  url:
+    value: 'https://github.com/tokio-rs/axum'
+    date: 2026-11-20
 
 claude-no-sudo:
   type: web
   title: 'Seeking Feedback: SSH-based sudo Password Helper for Claude Code'
-  url: 'https://github.com/anthropics/claude-code/issues/1135'
-  urldate: 2026-11-20
+  url:
+    value: 'https://github.com/anthropics/claude-code/issues/1135'
+    date: 2026-11-20
 
 codex-no-sudo:
   type: web
   title: 'codex gets stuck at sudo step running on Ubuntu'
-  url: 'https://github.com/openai/codex/issues/6108'
-  urldate: 2026-11-20
+  url:
+    value: 'https://github.com/openai/codex/issues/6108'
+    date: 2026-11-20
 
 html:
   type: web
   title: 'HTML Living Standard'
-  url: 'https://html.spec.whatwg.org/'
-  urldate: 2026-11-20
+  url:
+    value: 'https://html.spec.whatwg.org/'
+    date: 2026-11-20
 
 https:
   type: web
   title: 'RFC 9110: HTTP Semantics'
-  url: 'https://www.rfc-editor.org/rfc/rfc9110'
-  urldate: 2026-11-20
+  url:
+    value: 'https://www.rfc-editor.org/rfc/rfc9110'
+    date: 2026-11-20
 
 leptos:
   type: web
   title: 'Leptos'
-  url: 'https://leptos.dev/'
-  urldate: 2026-11-20
+  url:
+    value: 'https://leptos.dev/'
+    date: 2026-11-20
 
 postgresql:
   type: web
   title: 'PostgreSQL'
-  url: 'https://www.postgresql.org/'
-  urldate: 2026-11-20
+  url:
+    value: 'https://www.postgresql.org/'
+    date: 2026-11-20
 
 rust:
   type: web
   title: 'Rust Programming Language'
-  url: 'https://www.rust-lang.org/'
-  urldate: 2026-11-20
+  url:
+    value: 'https://www.rust-lang.org/'
+    date: 2026-11-20
 
 ssh:
   type: web
   title: 'RFC 4251: The Secure Shell (SSH) Protocol Architecture'
-  url: 'https://www.rfc-editor.org/rfc/rfc4251'
-  urldate: 2026-11-20
+  url:
+    value: 'https://www.rfc-editor.org/rfc/rfc4251'
+    date: 2026-11-20
 
 tailwind:
   type: web
   title: 'Tailwind CSS'
-  url: 'https://tailwindcss.com/'
-  urldate: 2026-11-20
+  url:
+    value: 'https://tailwindcss.com/'
+    date: 2026-11-20
 
 webassembly:
   type: web
   title: 'WebAssembly'
-  url: 'https://webassembly.org/'
-  urldate: 2026-11-20
+  url:
+    value: 'https://webassembly.org/'
+    date: 2026-11-20
 
 websocket:
   type: web
   title: 'RFC 6455: The WebSocket Protocol'
-  url: 'https://www.rfc-editor.org/rfc/rfc6455'
-  urldate: 2026-11-20
+  url:
+    value: 'https://www.rfc-editor.org/rfc/rfc6455'
+    date: 2026-11-20
