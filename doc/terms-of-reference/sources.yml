@@ -15,3 +15,15 @@ my-check-methods:
   title: '"Система удаленного управления компьютерами на базе искусственного интеллекта". Программа и методика испытаний'
   author: 'Чубий С.А.'
   date: 2026
+
+claude-no-sudo:
+  type: web
+  title: 'Seeking Feedback: SSH-based sudo Password Helper for Claude Code'
+  url: 'https://github.com/anthropics/claude-code/issues/1135'
+  urldate: 2026-11-20
+
+codex-no-sudo:
+  type: web
+  title: 'codex gets stuck at sudo step running on Ubuntu'
+  url: 'https://github.com/openai/codex/issues/6108'
+  urldate: 2026-11-20
