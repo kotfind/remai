@@ -93,43 +93,47 @@
     touying-slide(self: self, body)
 })
 
-#let title-slide() = vert-slide(grid(
-    columns: 1fr,
-    align: center,
-    row-gutter: 1fr,
+#let title-slide() = vert-slide({
+    set text(size: 15pt)
 
-    [
-        #cfg.faculty_name\
-        Образовательная программа "#cfg.edu_program_name"\
-        Выпускная квалификационная работа
-    ],
+    grid(
+        columns: 1fr,
+        align: center,
+        row-gutter: 1fr,
 
-    text(size: 18pt, font: fonts.sans, weight: "bold")[
-        #cfg.project.name.ru_break
-    ],
+        [
+            #cfg.faculty_name\
+            Образовательная программа "#cfg.edu_program_name"\
+            Выпускная квалификационная работа
+        ],
 
-    text(size: 18pt, font: fonts.sans, weight: "bold")[
-        #cfg.project.name.en
-    ],
+        text(size: 18pt, font: fonts.sans, weight: "bold")[
+            #cfg.project.name.ru_break
+        ],
 
-    [Проектная ВКР],
+        text(size: 18pt, font: fonts.sans, weight: "bold")[
+            #cfg.project.name.en
+        ],
 
-    align(right)[
-        Выполнил студент группы БПИ232\
-        образовательной программы\
-        09.03.04 «Программная инженерия»\
-        _Чубий Савва Андреевич_
-    ],
+        [Проектная ВКР],
 
-    align(right)[
-        Руководитель:\
-        старший преподаватель департамента\ больших данных и информационного
-        поиска\
-        _Куренков Владимир Вячеславович_
-    ],
+        align(right)[
+            Выполнил студент группы БПИ232\
+            образовательной программы\
+            09.03.04 «Программная инженерия»\
+            _Чубий Савва Андреевич_
+        ],
 
-    [Москва, 2026]
-))
+        align(right)[
+            Руководитель:\
+            старший преподаватель департамента\ больших данных и информационного
+            поиска\
+            _Куренков Владимир Вячеславович_
+        ],
+
+        [Москва, 2026]
+    )
+})
 
 
 
@@ -141,7 +145,7 @@
 ) = {
     set text(
         font: fonts.slab,
-        size: 14pt,
+        size: 20pt,
         lang: lang,
     )
 
