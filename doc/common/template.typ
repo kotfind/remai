@@ -2,7 +2,9 @@
     assert(cfg != none)
     assert(cfg.project != none)
     assert(cfg.project.code != none)
-    assert(cfg.project.name != none)
+    assert(cfg.project.name.ru != none)
+    assert(cfg.project.name.ru_break != none)
+    assert(cfg.project.name.en != none)
     assert(cfg.student != none)
     assert(cfg.student.name != none)
     assert(cfg.student.group != none)
@@ -58,7 +60,7 @@
 
             #cfg.faculty_name
 
-            #cfg.edu_program_name
+            Образовательная программа "#cfg.edu_program_name"
         ]
 
         let approve_table = grid(
@@ -96,7 +98,7 @@
             #set text(size: 14pt, weight: "bold")
             #set par(spacing: 2em)
 
-            #par(spacing: 0.65em, cfg.project.name)
+            #par(spacing: 0.65em, cfg.project.name.ru_break)
 
             #doc_name
 
@@ -164,7 +166,7 @@
             #set text(size: 14pt, weight: "bold")
             #set par(spacing: 2em)
 
-            #par(spacing: 0.65em, cfg.project.name)
+            #par(spacing: 0.65em, cfg.project.name.ru_break)
 
             #doc_name
 

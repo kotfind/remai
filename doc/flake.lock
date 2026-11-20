@@ -18,6 +18,32 @@
         "type": "github"
       }
     },
+    "hse-sans-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1632217740,
+        "narHash": "sha256-v35c2oLObU7tiwibdZTvIByOeV4EJwrkgXXJ4M7fvTI=",
+        "type": "tarball",
+        "url": "https://www.hse.ru/mirror/pubs/share/533611868"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://www.hse.ru/mirror/pubs/share/533611868"
+      }
+    },
+    "hse-slab-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1632217740,
+        "narHash": "sha256-WbUOMbtoejtv/TsrQ5ZfAU0/G9tGQbCk1IWxSKGIppo=",
+        "type": "tarball",
+        "url": "https://www.hse.ru/mirror/pubs/share/533611928"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://www.hse.ru/mirror/pubs/share/533611928"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1794840529,
@@ -35,6 +61,8 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
+        "hse-sans-src": "hse-sans-src",
+        "hse-slab-src": "hse-slab-src",
         "nixpkgs": "nixpkgs"
       }
     },
